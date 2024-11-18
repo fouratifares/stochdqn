@@ -1,9 +1,10 @@
 # Stochastic Q-learning for Large Discrete Action Spaces
 
-In complex environments with large discrete action spaces, effective decision-making is critical in reinforcement learning (RL). Despite the widespread use of value-based RL approaches like Q-learning, they come with a computational burden, necessitating the maximization of a value function over all actions in each iteration. This burden becomes particularly challenging when addressing large-scale problems and using deep neural networks as function approximators. We present stochastic value-based RL approaches which, in each iteration, as opposed to optimizing over the entire set of n
- actions, only consider a variable stochastic set of a sublinear number of actions, possibly as small as O(log(n)). StochDQN integrate this stochastic approach for both value-function updates and action selection.
+In complex environments with large discrete action spaces, effective decision-making is critical in reinforcement learning (RL). Despite the widespread use of value-based RL approaches like Q-learning, they come with a computational burden, necessitating the maximization of a value function over all actions in each iteration. This burden becomes particularly challenging when addressing large-scale problems and using deep neural networks as function approximators. 
 
 ### Stochastic Q-learnig Paper, [ICML 2024 Paper Link](https://proceedings.mlr.press/v235/fourati24a.html).
+
+We present stochastic value-based RL approaches which, in each iteration, as opposed to optimizing over the entire set of n actions, only consider a variable stochastic set of a sublinear number of actions, possibly as small as O(log(n)). StochDQN integrate this stochastic approach for both value-function updates and action selection.
 
 ### Citing the Project
 
